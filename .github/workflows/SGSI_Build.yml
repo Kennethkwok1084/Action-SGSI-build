@@ -6,15 +6,15 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://hugeota.d.miui.com/21.5.31/miui_TUCANA_21.5.31_cb42ec9bed_11.0.zip'
+        default: 'https://hz6xybrn.v1d.szbdyd.com:9305/download.meizu.com/Firmware/Flyme/16/9.21.11.18/cn_beta/20211118002219/3784e336/update.zip?xyip=222.78.41.22&xyct=852&xy_rid=zYS029LN47CNCI'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'miui_TUCANA_21.5.31_cb42ec9bed_11.0.zip'
+        default: 'update.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
-        default: 'miui'
+        default: 'flyme'
       SGSI_TYPE:
         description: 'SGSI_TYPE(AB, A, or BOTH)'
         required: true
@@ -22,7 +22,7 @@ on:
       REPACK_NAME:
         description: 'REPACK_NAME'
         required: true
-        default: 'SGSI.zip'
+        default: 'flyme_grus_test_gsi.zip'
 
 
 
